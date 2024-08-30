@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.styled-container {
+  font-family: Pretendard;
+  margin-top: 60px;
+  height: 90vh;
+  background-color: #00000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 375px;
+}
+
+.question-container {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.question-container h4 {
+  font-size: clamp(0.7rem, 1.5vw, 3rem);
+  padding-bottom: 5px;
+}
+
+.choices-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  color: #fff;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .choices-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+.choice-button {
+  margin: 5px;
+  color: #7c7c7c;
+  border: none;
+  background-color: transparent;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  padding: 7px;
+  font-size: clamp(13px, 1.3vw, 18px);
+}
+
+.choice-button.selected {
+  color: #d5d6fe;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.go-login {
+  text-decoration: none;
+  color: white;
+}

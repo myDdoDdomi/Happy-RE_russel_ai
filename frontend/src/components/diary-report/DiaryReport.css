@@ -1,0 +1,238 @@
+/* diaryreport.css */
+
+.DiaryReport {
+  width: 600px;
+  height: 100%;
+  background-color: black;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.DiaryReport-Loading{
+  width: 600px;
+  height: 100%;
+  background-color: transparent;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.diary-report-header {
+  font-family: "Alegreya Sans SC";
+  font-size: clamp(14px, 1.3vw, 18px);
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.diary-report-header-kr {
+  font-family: Pretendard;
+}
+
+.diary-report-header-text {
+  text-align: center;
+}
+.diary-report-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.diary-report-keyword {
+  font-family: Pretendard;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.diary-report-keyword-header {
+  font-family: 'Pretendard-Regular';
+  font-size: clamp(14px, 1.3vw, 18px);
+  font-weight: 800;
+  color: white;
+  opacity: 0.8;
+  border-bottom: 0.5px solid white;
+  padding-bottom: 5px;
+}
+
+.diary-report-keyword-positive {
+  background-color: rgba(178, 194, 199, 0.40);
+  padding: 10px;
+}
+
+.diary-report-keyword-positive-header {
+  color: #9DB6B9;
+  font-family: Pretendard;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.diary-report-keyword-positive-content {
+  display: flex;
+  gap: 10px;
+}
+
+.diary-report-keyword-negative {
+  background-color: rgba(199, 178, 178, 0.40);
+  padding: 10px;
+}
+
+.diary-report-keyword-negative-header {
+  color: #B99D9D;
+  font-family: Pretendard;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.diary-report-keyword-negative-content {
+  display: flex;
+  gap: 10px;
+}
+
+.diary-report-graph {
+  font-family: 'Pretendard-Regular';
+  margin-top: 20px;
+}
+
+.diary-report-graph-header {
+  font-family: 'Pretendard-Regular';
+  font-size: clamp(14px, 1.3vw, 18px);
+  font-weight: 800;
+  color: white;
+  opacity: 0.8;
+  border-bottom: 0.5px solid white;
+  padding-bottom: 5px;
+}
+
+.diary-report-graph-body {
+  padding-top: 30px;
+  display: flex;
+  margin-inline: 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+.diary-report-header{
+  text-align: left;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.diary-report-border{
+  border-color: white !important;
+  border-bottom: 0.3px solid ;
+}
+
+.diary-report-graph-label{
+  padding-top: 50px;
+  color: white;
+  max-width: 200px;
+  font-size: 12px;
+}
+
+.diary-report-keyword-none{
+  margin: 0px;
+}
+
+.diary-report-keyword-none-header{
+  opacity: 0.;
+  font-size: 20px;
+  color: white;
+
+}
+
+.diary-report-keyword-none-label-positive{
+  font-size: 13px;
+  color: #9DB6B9;
+}
+
+.diary-report-keyword-none-label-negative{
+  font-size: 13px;
+  color: #B99D9D;
+}
+
+.diary-modal-popup-spinner{
+  width: 200px;
+  height: 200px;
+  color: rgb(175, 175, 193);
+  border-width: 10px;
+
+}
+.modal-loading-text {
+  font-family: Pretendard;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 0.9;
+  line-height: 30px;
+}
+
+.modal-loading-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.modal-loading-label{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.modal-loading-text{
+  color: white;
+  margin-top: 10px;
+}
+
+.diary-report-explain-label{
+  font-family: 'Pretendard-Regular';
+  color: #696969;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+/* 미디어 쿼리: 화면 너비가 1350px 이하일 때 */
+@media (max-width: 1350px) {
+  .diary-report-container {
+    margin: auto;
+  }
+}
+
+/* 미디어 쿼리: 화면 너비가 1024px 이하일 때 */
+@media (max-width: 1024px) {
+  .DiaryReport {
+    margin: auto;
+    width: 500px;
+
+  }
+  .diary-report-graph-body{
+    justify-content: center;
+  }
+  .diary-report-graph-label{
+    display: none;
+  }
+}
+
+/* 미디어 쿼리: 화면 너비가 768px 이하일 때 */
+@media (max-width: 768px) {
+  .DiaryReport {
+    margin: auto;
+    width: 470px;
+
+  }
+}
+
+/* 미디어 쿼리: 화면 너비가 480px 이하일 때 */
+@media (max-width: 480px) {
+  .DiaryReport {
+    width: 300px;
+    margin: auto;
+
+  }
+}

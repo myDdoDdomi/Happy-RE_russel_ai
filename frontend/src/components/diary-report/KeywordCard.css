@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+.KeywordCard {
+  min-width: 32%;
+  padding: 5px;
+  color: white;
+  font-family: 'Pretendard-Regular';
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.keyword-title {
+  font-size: clamp(16px, 1.3vw, 20px);
+  font-weight: 700;
+  padding-bottom: 5px;
+  opacity: 0.9;
+}
+
+.keyword-content {
+  font-size: clamp(11px, 1.3vw, 13px);
+  font-weight: 100;
+  opacity: 0.9;
+  padding-bottom: 5px;
+}
+
+.keyword-line {
+  border-bottom: 0.5px solid white;
+  opacity: 0.9;
+  margin: 10px 0;
+}
+
+.keyword-date {
+  font-size: clamp(8px, 1.3vw, 10px);
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.emotion-tags {
+  font-size: clamp(9px, 1.3vw, 11px);
+  font-weight: 100;
+}
+
+.emotion-tag {
+  margin-right: 5px;
+  opacity: 0.9;
+}
+
+.emotion-tag-add-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.emotion-add-container {
+  width: 100%;
+}

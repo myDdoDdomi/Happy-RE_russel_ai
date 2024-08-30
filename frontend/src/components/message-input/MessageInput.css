@@ -1,0 +1,117 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.message-input {
+  padding: 20px;
+  background-color: rgba(105, 105, 105, 0.4);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Pretendard', sans-serif;
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.message-input-title {
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffffa9;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+}
+
+.message-input-title strong {
+  font-family: Pretendard;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.message-input-keyword-left-btn {
+  color: white;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+.message-input-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.text-input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 0px solid #ddd;
+  background-color: rgba(0, 0, 0, 0.299);
+  border-radius: 4px;
+  resize: none;
+  font-size: 0.8em;
+  color: #ffffff; /* 텍스트 색상을 하얀색으로 설정 */
+  font-family: 'Pretendard', sans-serif; /* 폰트 스타일 적용 */
+}
+
+.text-input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* 플레이스홀더 텍스트 색상 */
+  text-align: center;
+}
+
+.keyword-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #ffffff00;
+  color: #fff;
+}
+
+.share-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.message-keyword-card{
+  width: 200px;
+  padding: 0px 20px;
+}
+
+.text-input::placeholder {
+  font-weight: 100;
+  color: #999; /* 필요에 따라 색상도 변경할 수 있습니다 */
+}
+
+.message-keyword-none-text {
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+.message-send-btn:disabled{
+  color: #ddd;
+  border: 1px #7a839c solid;
+  background-color: rgba(122, 131, 156, 1);
+}
+
+.message-send-btn{
+  margin: 0px !important;
+
+}

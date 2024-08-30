@@ -1,0 +1,423 @@
+
+.user-profile-container{
+  margin-top: 150px;
+  font-family: Pretendard;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+ 
+.user-profile-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.user-profile-container::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #898B98;; 
+  border-radius: 10px;
+}
+
+.user-profile-container::-webkit-scrollbar-track {
+  background: #595B63;  
+  border-radius: 10px;
+} */
+
+
+.user-avatar{
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.profile-page-user-image{
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.profile-edit-btn {
+  font-family: Pretendard;
+}
+
+
+
+.default-info{
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.default-info-container{
+  margin: auto;
+  text-align: center;
+}
+
+
+.email{
+  font-size: 13px !important;
+  color: rgb(193, 193, 193);
+}
+
+.nickname{
+  font-size: 15px;
+  color: white;
+  margin: 0px;
+}
+
+/* .user-emotion-info-container {
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.user-emotion-info-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.user-emotion-info-container::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #898B98;; 
+  border-radius: 10px;
+}
+
+.user-emotion-info-container::-webkit-scrollbar-track {
+  background: #595B63;  
+  border-radius: 10px;
+} */
+
+
+.profile-mywords-title {
+  border-bottom: 0.5px solid white;
+  opacity: 0.8;
+  margin-bottom: 15px;
+  display: flex; /* 추가 */
+  align-items: center; /* 추가 */
+  justify-content: space-between; /* 추가 */
+  padding-left: 5px; /* 기존 padding을 부모 요소로 이동 */
+}
+
+.profile-mywords-title-text {
+  font-size: 20px;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.profile-mywords-guide {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+  opacity: 0.7;
+  padding-right: 10px;
+}
+
+
+.wordcloud-container{
+  margin-inline: 0px;
+}
+
+.wordcloud-none-word {
+  font-family: Pretendard;
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+  margin: 30px 10px;
+  margin-bottom: 150px;
+}
+.emotion-graph-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.profile-emotion-title {
+  border-bottom: 0.5px solid white;
+  opacity: 0.8;
+  margin-bottom: 15px;
+  display: flex; /* 추가 */
+  align-items: center; /* 추가 */
+  justify-content: space-between; /* 추가 */
+  padding-left: 5px; /* 기존 padding을 부모 요소로 이동 */
+}
+
+.profile-emotion-title-text {
+  font-size: 20px;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.change-happyre-persona{
+  font-family: Pretendard;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.calender-container{
+  position: relative;
+  width: 100%;
+}
+
+.happyre-persona-image{
+  width: 200px;
+}
+
+.persona-image-container{
+  position: relative;
+}
+
+.persona-change-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(14,13,33);
+  border-radius: 100%;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.persona-change-button:hover{
+  background-color: rgb(33,33,53);
+}
+
+.material-symbols-outlined {
+  color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.persona-chat-container {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.persona-chat {
+  background-color: #4B4E6D;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 90%;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.persona-chat::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: #4B4E6D;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: 5px;
+  margin-left: -10px;
+  border-width: 15px;
+}
+
+.persona-diary-add-btn {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.modal-backdrop {
+  z-index: 1040 !important;
+}
+
+.modal {
+  z-index: 1050 !important;
+}
+
+.modal-background{
+  background-color: #4B4E6D;
+}
+
+
+/* 모달 콘텐츠 스타일 조정 */
+.custom-modal .modal-content {
+  background-color: #282c34; /* 모달 배경 색상 */
+  color: white; /* 모달 텍스트 색상 */
+}
+
+
+.happyre-choice-preview{
+  width: 100%;
+  max-width: 170px;
+}
+
+.borderless{
+  border: none;
+}
+
+.show-modal{
+  z-index: 10000;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.show-modal-backdrop{
+  z-index: 1040 !important;
+
+}
+
+.unshow-modal{
+  display: none;
+}
+
+.upside{
+  z-index: 10000;
+}
+
+.happyre-persona-change-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: normal;
+  align-items: center;
+  min-width: 100px;
+  font-family: Pretendard;
+}
+
+.happyre-persona-icon-container{
+  padding: 20px;
+  cursor: pointer;
+  max-width: 300px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.happyre-persona-info {
+  color: white;
+}
+
+.happyre-persona-info-title {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.happyre-persona-info-description {
+  font-size: 12px;
+}
+
+.wordcloud-none-word {
+  opacity: 0.7;
+  
+}
+
+
+/* 툴팁의 스타일 정의 */
+.echarts-tooltip {
+  color: aliceblue;
+  border-radius: 5px !important;   /* 둥근 모서리 */
+  font-family: Pretendard;
+  font-weight: 100;
+}
+
+.nodata{
+  position: relative !important;
+  display: block !important;
+  width:600px ;
+  height: 400px;
+
+}
+.havedata{
+  position: relative !important;
+  display: block !important;
+  width: 0px;
+  height: 0px;
+
+}
+
+.wordcloud-container{
+  display: block;
+  width: 600px;
+  height: 0px;
+}
+
+.valid-container{
+  display: block;
+  width: 600px;
+  height: 400px;
+}
+
+.happyre-change-guid{
+  font-family:Pretendard;
+  font-weight: 100;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  position: absolute;
+  left: -200px;
+  width: 400px;
+  top:200px
+
+}
+
+.profile-calender-guide{
+  font-family:Pretendard;
+  font-weight: 100;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  position: absolute;
+  right: 50px;
+  width: 400px;
+  top : -50px;
+
+}
+
+@media (max-width: 1024px) {
+  .user-avatar {
+    display: none;
+  }
+  .default-info-container {
+    display: none;
+  }
+  .user-profile-info-container {
+    width: 100%;
+  }
+  .change-happyre-persona{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  .change-happyre-persona{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    }
+  }
+
+  

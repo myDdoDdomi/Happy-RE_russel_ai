@@ -1,0 +1,74 @@
+/* src/components/RtcModal.css */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.rtc-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* z-index 추가 */
+}
+
+.rtc-modal {
+  background-color: rgba(24, 24, 24, 0.8);
+  font-family: 'Pretendard', sans-serif;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 0px;
+  padding: 30px;
+  text-align: center;
+}
+
+.rtc-modal-header-title{
+  margin-block-end: 30px;
+  font-size: 11px !important;
+  opacity: 0.7;
+}
+.rtc-modal p {
+  /* 내용이 있으면 추가 */
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.rtc-modal-btn{
+  width: 100px;
+  margin: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.rtc-modal-buttons{
+  display: flex;
+  font-family: 'Pretendard', sans-serif;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
+
+.rtc-modal-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rtc-modal-img {
+  width: 175px; /* 이미지 크기를 키웠습니다 */
+  height: 175px;
+  object-fit: cover;
+}
+
+.rtc-modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.rtc-modal-arrow {
+  font-size: 36px; /* 화살표 크기 */
+  margin: 0 20px; /* 이미지 사이의 간격 */
+}
