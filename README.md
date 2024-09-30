@@ -39,6 +39,10 @@
   - 유저의 감정이 담긴 편지를 공유
 - **결과적으로 Happy : Re 는 자신을 좀 더 깊게 이해하고, 바람직한 삶의 계획을 세우는 데 도움이 될 수 있습니다.**
 
+## 팀원소개
+![](readme%20resource/팀원소개.png)
+
+
 # 서비스 소개
 ![](readme%20resource/catchphrase.png)
 
